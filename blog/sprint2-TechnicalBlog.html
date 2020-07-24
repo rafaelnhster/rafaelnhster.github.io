@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>
+        Rafael Blog Sprint 2
+    </title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+
+    <link href="mainA.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<style>
+    #colorWhite {
+        color: white;
+    }
+    
+    #bckg {
+        background-color: rgb(66, 58, 59);
+    }
+    
+    #bckg01 {
+        background-color: rgb(132, 146, 140);
+    }
+    
+    #bckg02 {
+        background-color: rgb(92, 72, 77);
+    }
+    
+    #bckg03 {
+        background-color: rgb(106, 131, 106);
+    }
+</style>
+
+
+<body>
+
+    <div class="sprint2Bcg">
+
+        <div id="colorWhite" class="h2headIndex">
+            <h2>Contact</h2>
+            <h2>About Me</h2>
+            <h2>
+                <a href="index.html">
+                    Home
+                </a>
+            </h2>
+            <h2>News</h2>
+        </div>
+
+        <div class="headText">
+            <h1 id="bckg" class="font1"> Let's Do It Together</h1>
+        </div>
+    </div>
+
+    <div class="h3head">
+        <h2>
+            <a href="index.html">
+                Sprint 1
+            </a>
+            <h2>
+                <a href="sprint2-TechnicalBlog.html">
+                    Sprint 2
+                </a>
+            </h2>
+            <h2>
+                <a href="sprint3-TechnicalBlog.html">
+                    Sprint 3
+                </a>
+            </h2>
+            <h2>
+                <a href="sprint4-TechnicalBlog.html">
+                    Sprint 4
+                </a>
+
+            </h2>
+            <h2>
+                <a href="sprint5-TechnicalBlog.html">
+                    Sprint 5
+                </a>
+            </h2>
+
+    </div>
+
+    <div class="bodyText">
+        <div class="entry-colors">
+            <div id="bckg01" class="color_col_1"></div>
+            <div id="bckg02" class="color_col_2"></div>
+            <div id="bckg03" class="color_col_3"></div>
+        </div>
+
+        <div>
+
+        </div>
+
+    </div>
+
+
+    <div class="bodyText">
+        <p class="textTOCenter">
+            <strong>
+                What is the difference between Margin, Border, and Padding?
+            </strong>
+        </p>
+        <p>
+            In this article, we explain the difference between padding and margin. Padding and margin are two key style elements in CSS that allows us to give spacing to HTML elements in a web page. But how does padding and margin differ? Below is an image which
+            helps to illustrate the 2 CSS style elements:
+        </p>
+        <p>
+            <img src="images/Padding_Margin_Border.gif">
+        </p>
+
+        <p>
+            <div class="entry-colors">
+                <div id="bckg01" class="color_col_1"></div>
+                <div id="bckg02" class="color_col_2"></div>
+                <div id="bckg03" class="color_col_3"></div>
+            </div>
+        </p>
+        <br>
+        <div>
+            <p class="textTOCenter">
+                <strong>
+                    What are the best practices associated with using classes vs. ids?
+                </strong>
+            </p>
+
+            <p>
+                <strong>CSS Classes</strong>
+                <br> In CSS, a class is a group of elements that are the same or similar. You can have as many elements as you want in a class. And each element can be the member of multiple classes. Every class has CSS attributes (like color and font-size)
+                that are specific to that class.
+                <br> CSS classes are similar to a real-life class. A class is a group of students, who often share certain similarities: similar ages, area codes, interests, or life goals.
+            </p>
+
+
+
+            <p class="textTOCenter">
+                <strong>HOW TO ADD A CLASS TO YOUR HTML ELEMENT:</strong></p>
+            <img src="images/Class_creating.png" alt="Author standing on a beach with two thumbs up.">
+            <p>
+                <code>
+         <div class="test"></div>
+       </code>
+            </p>
+
+            Each HTML element can have multiple CSS classes.
+
+            <p class="textTOCenter">
+                <strong>CSS IDS</strong>
+
+                <p>An ID is a singular identifier of one HTML tag. You can only have one HTML tag per ID and each HTML tag can only have one ID. Each ID has a specific set of CSS attributes that only apply to that one element.
+                </p>
+                To go back to our real-life class example, even if a group of students shares many attributes, each student has their own Social Security number that identifies them and only them.
+            </p>
+
+            <p>
+                HOW TO ADD AN ID TO YOUR HTML ELEMENT:
+            </p>
+            <img src="images/Adding_ID_to_element.png">
+
+            <p>How to use them in your CSS:</p>
+
+            <p>
+                <img src="images/Creating_ID.png">
+            </p>
+
+            <p>
+                Cocktail Party Fact In CSS, HTML tags, classes, and IDs each have their own numerical value. IDs have the highest numerical value, followed by classes, and then HTML elements themselves. If an HTML element has two styles applied to it that conflict, CSS
+                defaults to the higher value. Check out this CSS specificity calculator.
+            </p>
+
+
+            <p>
+                <div class="entry-colors">
+                    <div id="bckg01" class="color_col_1"></div>
+                    <div id="bckg02" class="color_col_2"></div>
+                    <div id="bckg03" class="color_col_3"></div>
+                </div>
+
+            </p>
+            <br>
+            <div>
+                <p class="textTOCenter">
+                    <strong>
+                            What are the differences between relative, absolute, and fixed positioning?
+                        </strong>
+                    <br>
+                    <strong>
+                            Static
+                        </strong>
+                    <p>
+                        This is the default for every single page element. Different elements don’t have different default values for positioning, they all start out as static. Static doesn’t mean much; it just means that the element will flow into the page as it normally would.
+                        The only reason you would ever set an element to position: static; is to forcefully remove some positioning that got applied to an element outside of your control. This is fairly rare, as positioning doesn’t cascade.
+                    </p>
+                    <p>
+                        <strong> Relative</strong>
+
+                        <p>
+                            This type of positioning is probably the most confusing and misused. What it really means is “relative to itself”. If you set position: relative; on an element but no other positioning attributes (top, left, bottom or right), it will have no effect on
+                            it’s positioning at all, it will be exactly as it would be if you left it as position: static; But if you do give it some other positioning attribute, say, top: 10px;, it will shift its position 10 pixels down from where it
+                            would normally be. I’m sure you can imagine, the ability to shift an element around based on its regular position is pretty useful.
+                        </p>
+                        <p>
+                            <strong>
+                            Absolute
+                        </strong>
+                        </p>
+
+
+                        This is a very powerful type of positioning that allows you to literally place any page element exactly where you want it. You use the positioning attributes top, left, bottom, and right to set the location. Remember that these values will be relative
+                        to the next parent element with relative (or absolute) positioning. If there is no such parent, it will default all the way back up to the
+                        <html> element itself meaning it will be placed relative to the page itself.
+
+                        <img src="images/Position_static_absolute_relative.png ">
+
+                    </p>
+            </div>
+
+            <p>
+                <div class="entry-colors">
+                    <div id="bckg01" class="color_col_1"></div>
+                    <div id="bckg02" class="color_col_2"></div>
+                    <div id="bckg03" class="color_col_3"></div>
+                </div>
+
+            </p>
+            <br>
+            <div>
+                <p>
+                    <strong>
+                                What does it mean to display inline vs inline blocks?
+                            </strong>
+                </p>
+                <br>
+
+                <em> Display: inline-block </em> creates side by side boxes that collapse and wrap properly depending on the available space in the containing element. It makes layouts that were previously accomplished with floats easier to create. No
+                need to clear floats anymore.
+                <p>
+                    Compared to <i>display: inline,</i> the major difference is that inline-block allows to set a width and height on the element. Also, with display: inline, top and bottom margins & paddings are not respected, and with display: inline-block
+                    they are.
+                </p>
+
+                <br> Now, the difference between display: inline-block and display: block is that, with display: block, a line break happens after the element, so a block element doesn’t sit next to other elements. Here are some visual
+                <p>
+                    <strong>Display: inline</strong>
+                    <br> Notice here how the width and height are not respected, and how the padding top and bottom are present, but overlap over the lines above and under.
+                    <br>
+
+                </p>
+                <img src="images/display_inline.png ">
+                <br>
+                <p>
+                    <img src="images/disppnglay_inline_ex">
+                </p>
+                <br>
+                <p>
+                    <strong>
+                                Display: inline-block
+                            </strong>
+                    <br> Here the width, height and padding are respected, but the two copies of the element can still sit side by side.
+                    <br><br>
+                    <img src="images/Inline-block.png ">
+                    <br>
+                    <img src="images/inline-block-ex.png ">
+                </p>
+                <p>
+                    <strong>
+                                Display: block
+                            </strong>
+                    <br> Here again everything is respected, but the elements don’t sit side by side
+                    <br>
+                    <img src="/images/block.png ">
+                    <br>
+                    <img src="images/block_ex.png">
+                </p>
+            </div>
+        </div>
+
+</body>
+
+</html>
