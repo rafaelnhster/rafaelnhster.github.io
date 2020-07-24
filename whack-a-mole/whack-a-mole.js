@@ -61,17 +61,45 @@
       randomX.appendChild(img)
   }
 
+  var count = 0;
+
   function processClick(evt) {
+
       // Remove current Mole
       this.remove();
       // Add New Mole
       moleInTheCell();
-      playAudio();
+      //   playAudio();
+
+      if (count >= 1 && count <= 5) {
+          playAudio();
+
+      } else if (count == 6) {
+          alert("Goooooollllll");
+          playGoal();
+
+
+      }
+
+      if (count === 6) {
+          count = 0;
+      } else {
+          count++;
+      }
   }
+
+
 
   function playAudio() {
       var shot = new Audio('Soccer Pass Sound Effect.mp3')
       shot.play();
   }
+
+  function playGoal() {
+      var shout = new Audio('Goal Sound.mp3')
+      shout.play();
+  }
+
+
 
   console.log(holes)
